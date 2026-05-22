@@ -2,7 +2,7 @@
 <H3>ENTER YOUR NAME</H3> MANOJ M
 <H3>ENTER YOUR REGISTER NO.</H3> 212223230122
 <H3>EX. NO.4</H3>
-<H3>DATE:</H3> 22/5/26
+<H3>DATE:</H3> 
 <H1 ALIGN =CENTER>Implementation of MLP with Backpropagation for Multiclassification</H1>
 <H3>Aim:</H3>
 To implement a Multilayer Perceptron for Multi classification
@@ -115,7 +115,9 @@ Normalize our dataset.
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
 <H3>Program:</H3> 
+
 ```
+
 #Include packages and builtin classes
 import pandas as pd
 import sklearn
@@ -203,11 +205,15 @@ print(predictions)
 # Evaluation of algorithm performance
 print(confusion_matrix(y_test, predictions))
 print(classification_report(y_test, predictions))
+
 ```
 
 <H3>Output:</H3>
+
 <img width="575" height="285" alt="image" src="https://github.com/user-attachments/assets/93f045fb-ff84-49e0-af3a-4719eedaf9f0" />
-<img width="117" height="146" alt="image" src="https://github.com/user-attachments/assets/00fc9617-0e44-4f17-a560-08112836dfa2" />
+
+<img width="117" height="146" alt="image" src="https://github.com/user-attachments/assets/00fc9617-0e44-4f17-a560-08112836dfa2" /><br>
+
 <img width="609" height="293" alt="image" src="https://github.com/user-attachments/assets/9f6a0693-8464-4889-b23e-54e4f49a8287" />
 
 
